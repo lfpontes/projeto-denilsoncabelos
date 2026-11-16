@@ -99,7 +99,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/fmen.jpg",
-    descricao: "...",
+    descricao:
+      "Óleo para cuidados da barba, ideal para complementar a rotina diária. Siga as orientações do fabricante.",
     disponivel: true,
   },
   {
@@ -108,7 +109,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/locaob.png",
-    descricao: "...",
+    descricao:
+      "Loção para integrar os cuidados com a barba. Consulte a embalagem para verificar as indicações e o modo de uso.",
     disponivel: true,
   },
   {
@@ -117,7 +119,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/pbc.png",
-    descricao: "...",
+    descricao:
+      "Colônia para usar na barba e no corpo, conforme as orientações da embalagem.",
     disponivel: true,
   },
   {
@@ -126,7 +129,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/pgromming.jpg",
-    descricao: "...",
+    descricao:
+      "Pomada para auxiliar na modelagem e finalização. Confira as indicações do fabricante para saber como usar.",
     disponivel: true,
   },
   {
@@ -135,7 +139,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/ppo.jpg",
-    descricao: "...",
+    descricao:
+      "Pomada em pó para complementar os cuidados e a finalização. Consulte as instruções da embalagem.",
     disponivel: true,
   },
   {
@@ -144,7 +149,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/tdodger.jpg",
-    descricao: "...",
+    descricao:
+      "Óleo para cuidados da barba, pensado para fazer parte da rotina diária. Use conforme as orientações do fabricante.",
     disponivel: true,
   },
   ////////////////////////////////////////////////////////
@@ -154,7 +160,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/asl-turbo.jpg",
-    descricao: "...",
+    descricao:
+      "Carregador com conexões Tipo C e Lightning para dispositivos compatíveis. Confira o conector do seu aparelho antes de comprar.",
     disponivel: true,
   },
   {
@@ -163,7 +170,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/asl-uni.jpg",
-    descricao: "...",
+    descricao:
+      "Carregador universal para recarregar dispositivos compatíveis. Verifique o tipo de conexão e as especificações do aparelho.",
     disponivel: true,
   },
   {
@@ -172,7 +180,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/caboc.jpg",
-    descricao: "...",
+    descricao:
+      "Cabo Peining com conexão Tipo C para dispositivos compatíveis. Confira a entrada do seu aparelho antes de comprar.",
     disponivel: true,
   },
   {
@@ -181,7 +190,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/caboios.jpg",
-    descricao: "...",
+    descricao:
+      "Cabo Peining com conexões Tipo C e Lightning para aparelhos compatíveis. Verifique se os conectores correspondem ao seu dispositivo.",
     disponivel: true,
   },
   {
@@ -190,7 +200,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/caboioshm.jpg",
-    descricao: "...",
+    descricao:
+      "Cabo H'Maston com conexões Tipo C e Lightning para aparelhos compatíveis. Confira a entrada do seu dispositivo antes de comprar.",
     disponivel: true,
   },
   {
@@ -199,7 +210,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/cabom.jpg",
-    descricao: "...",
+    descricao:
+      "Cabo Peining com conector Micro USB para dispositivos compatíveis. Verifique o tipo de entrada do seu aparelho.",
     disponivel: true,
   },
   {
@@ -208,7 +220,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/cbasike.jpg",
-    descricao: "...",
+    descricao:
+      "Carregador Basike com duas portas para carregar dispositivos compatíveis. Confira a conexão e as especificações do aparelho antes de usar.",
     disponivel: true,
   },
   {
@@ -217,7 +230,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/cgold.jpg",
-    descricao: "...",
+    descricao:
+      "Carregador A’Gold para recarga de dispositivos compatíveis. Consulte a embalagem para verificar as especificações e a conexão adequada.",
     disponivel: true,
   },
   {
@@ -225,8 +239,9 @@ const catalogoProdutos = [
     nome: "Lelong - Carregador Rápido",
     categoria: "Eletronicos",
     preco: "1.00",
-    imagem: ["assets/produtos/eletronicos/clelong.jpg"],
-    descricao: "...",
+    imagem: "assets/produtos/eletronicos/clelong.jpg",
+    descricao:
+      "Carregador Lelong para recarga de dispositivos compatíveis. Verifique as especificações do produto e do aparelho antes de conectar.",
     disponivel: true,
   },
   {
@@ -235,7 +250,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/fonegold.jpg",
-    descricao: "...",
+    descricao:
+      "Fone de ouvido A'Gold Plus para ouvir músicas, vídeos e outros áudios. Confira o tipo de conexão e a compatibilidade com seu aparelho.",
     disponivel: true,
   },
   {
@@ -244,7 +260,8 @@ const catalogoProdutos = [
     categoria: "Eletronicos",
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/fonelelong.jpg",
-    descricao: "...",
+    descricao:
+      "Fone de ouvido estéreo Lelong para ouvir músicas, vídeos e outros áudios. Verifique a conexão compatível com seu dispositivo.",
     disponivel: true,
   },
   /////////////////////////////////////////////////////////

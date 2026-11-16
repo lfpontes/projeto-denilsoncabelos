@@ -304,7 +304,7 @@ const catalogoProdutos = [
   },
   {
     id: "bones",
-    nome: "Bonés",
+    nome: "Boné(s)",
     categoria: "Vestuario",
     preco: "1.00",
     imagens: [

@@ -239,7 +239,7 @@ const catalogoProdutos = [
     nome: "Lelong - Carregador Rápido",
     categoria: "Eletronicos",
     preco: "1.00",
-    imagem: "assets/produtos/eletronicos/clelong.jpg",
+    imagem: ["assets/produtos/eletronicos/clelong.jpg"],
     descricao: "...",
     uso: "...",
     disponivel: true,
@@ -265,6 +265,32 @@ const catalogoProdutos = [
     disponivel: true,
   },
   /////////////////////////////////////////////////////////
+  {
+    id: "cjahfreedom",
+    nome: "Camisas JahFreedom",
+    categoria: "Vestuario",
+    preco: "1.00",
+    imagens: ["assets//", "assets/camisas/"],
+    descricao: "...",
+    uso: "...",
+    disponivel: true,
+  },
+  {
+    id: "bones",
+    nome: "Bonés",
+    categoria: "Vestuario",
+    preco: "1.00",
+    imagens: [
+      "assets/produtos/vestuario/bazul.jpg",
+      "assets/produtos/vestuario/bjf.jpg",
+      "assets/produtos/vestuario/bml.jpg",
+      "assets/produtos/vestuario/bvermelho.jpg",
+      "assets/produtos/vestuario/bvqjd.jpg",
+    ],
+    descricao: "...",
+    uso: "...",
+    disponivel: true,
+  },
 ];
 // Escapa o conteúdo antes de compor os cards. Os dados permanecem editáveis aqui.
 function escaparHTML(valor) {
@@ -279,6 +305,9 @@ function escaparHTML(valor) {
 const gradeProdutos = document.getElementById("gradeProdutos");
 gradeProdutos.innerHTML = catalogoProdutos
   .map((p, i) => {
+    const imagens = (Array.isArray(p.imagens) ? p.imagens : [p.imagem]).filter(
+      Boolean,
+    );
     const id = escaparHTML(p.id),
       nome = escaparHTML(p.nome);
     const preco = new Intl.NumberFormat("pt-BR", {
@@ -286,7 +315,14 @@ gradeProdutos.innerHTML = catalogoProdutos
       currency: "BRL",
     }).format(Number(p.preco));
     return `<article class="produto" data-categoria="${escaparHTML(p.categoria)}" data-busca="${nome}" aria-labelledby="titulo-${id}">
-  <div class="produto-foto"><img src="${escaparHTML(p.imagem)}" alt="Embalagem ilustrativa de ${nome}" width="480" height="400" ${i ? 'loading="lazy"' : ""}><span class="numero-produto">0${i + 1}</span><span class="categoria">${escaparHTML(p.categoria)}</span></div>
+  <div class="produto-foto"><div class="galeria-fotos">
+  ${imagens
+    .map(
+      (foto, indice) =>
+        `<img src="${escaparHTML(foto)}" alt="${nome} - foto ${indice + 1}" width="480" height="400">`,
+    )
+    .join("")}
+</div><span class="numero-produto">0${i + 1}</span><span class="categoria">${escaparHTML(p.categoria)}</span></div>
   <div class="produto-corpo"><h3 id="titulo-${id}">${nome}</h3><p class="descricao">${escaparHTML(p.descricao)}</p><details><summary>Como usar</summary><p>${escaparHTML(p.uso)}</p></details>
   <div class="produto-preco"><strong>${preco}</strong><span>por unidade</span></div><p class="disponibilidade" id="disponibilidade-${id}">Disponibilidade a confirmar</p>
   <input hidden type="checkbox" name="produtos" id="${id}" value="${escaparHTML(p.preco)}" data-nome="${nome}" data-disponivel="${p.disponivel}" data-quantidade="quantidade-${id}">

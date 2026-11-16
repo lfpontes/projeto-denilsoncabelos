@@ -281,7 +281,7 @@ const catalogoProdutos = [
       "assets/produtos/vestuario/camisasjf/8.jpg",
       "assets/produtos/vestuario/camisasjf/9.jpg",
       "assets/produtos/vestuario/camisasjf/10.jpg",
-      //"assets/produtos/vestuario/camisasjf/11.jpg",
+      "assets/produtos/vestuario/camisasjf/11.jpg",
       "assets/produtos/vestuario/camisasjf/12.jpg",
       "assets/produtos/vestuario/camisasjf/13.jpg",
       "assets/produtos/vestuario/camisasjf/14.jpg",

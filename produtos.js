@@ -24,7 +24,7 @@ const catalogoProdutos = [
   },
   {
     id: "maquina-kemei",
-    nome: "Kemei - Máquina para Aparar Pelos",
+    nome: "Kemei - Máquina de Aparar Pelos",
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/kemei.jpg",

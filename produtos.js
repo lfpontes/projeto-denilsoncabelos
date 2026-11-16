@@ -298,7 +298,7 @@ const catalogoProdutos = [
       "assets/produtos/vestuario/camisasjf/25.jpg",
       "assets/produtos/vestuario/camisasjf/26.jpg",
     ],
-    descricao: "...",
+    descricao: "Camisas da linha JahFreedom para andar no estilo.",
 
     disponivel: true,
   },
@@ -314,7 +314,7 @@ const catalogoProdutos = [
       "assets/produtos/vestuario/bones/bvermelho.jpg",
       "assets/produtos/vestuario/bones/bvqjd.jpg",
     ],
-    descricao: "...",
+    descricao: "Bonés diversificados para andar no estilo.",
     disponivel: true,
   },
 ];

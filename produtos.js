@@ -254,6 +254,16 @@ const catalogoProdutos = [
     uso: "...",
     disponivel: true,
   },
+  {
+    id: "fonelelong",
+    nome: "Lelong - Fone de Ouvido Estéreo",
+    categoria: "Eletronicos",
+    preco: "1.00",
+    imagem: "assets/produtos/eletronicos/fonelelong.jpg",
+    descricao: "...",
+    uso: "...",
+    disponivel: true,
+  },
   /////////////////////////////////////////////////////////
 ];
 // Escapa o conteúdo antes de compor os cards. Os dados permanecem editáveis aqui.

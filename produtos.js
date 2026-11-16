@@ -8,8 +8,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/gclassea.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Gel cera para modelar e finalizar os cabelos. Uma opção prática para compor diferentes penteados na rotina de cuidados.",
     disponivel: true,
   },
   {
@@ -18,8 +18,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/gelcola.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Gel para modelar os cabelos e ajudar a manter o penteado. A proposta de fixação extra forte atende quem busca mais firmeza na finalização.",
     disponivel: true,
   },
   {
@@ -28,8 +28,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/kemei.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Máquina Kemei para aparar pelos e auxiliar nos cuidados pessoais. Confira o modelo e as instruções do fabricante antes de usar.",
     disponivel: true,
   },
   {
@@ -38,8 +38,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/mcabelo.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Máquina para aparar pelos, indicada para complementar a rotina de cuidados pessoais. Consulte as informações do fabricante para conhecer os detalhes do modelo.",
     disponivel: true,
   },
   {
@@ -48,8 +48,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/pblack.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Pasta capilar para modelar e finalizar os cabelos. Pode ser usada para compor o penteado do dia a dia.",
     disponivel: true,
   },
   {
@@ -58,8 +58,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/pcaramelo.png",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Cera capilar para ajudar a modelar e finalizar os cabelos. Uma alternativa para criar e ajustar o penteado.",
     disponivel: true,
   },
   {
@@ -68,8 +68,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/pgromming.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Pomada capilar para modelar e finalizar os fios. Consulte a embalagem para verificar as orientações de uso.",
     disponivel: true,
   },
   {
@@ -78,8 +78,8 @@ const catalogoProdutos = [
     categoria: "Cabelo",
     preco: "1.00",
     imagem: "assets/produtos/cabelo/ppo.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Pomada em pó para compor a finalização dos cabelos. Confira as instruções da embalagem antes de aplicar.",
     disponivel: true,
   },
   /////////////////////////////////////////////////
@@ -89,8 +89,8 @@ const catalogoProdutos = [
     categoria: "Barba",
     preco: "1.00",
     imagem: "assets/produtos/barba/beardoil.jpg",
-    descricao: "...",
-    uso: "...",
+    descricao:
+      "Óleo para incluir na rotina de cuidados com a barba. Consulte a embalagem para conferir a forma de aplicação indicada.",
     disponivel: true,
   },
   {
@@ -100,7 +100,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/barba/fmen.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -110,7 +109,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/barba/locaob.png",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -120,7 +118,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/barba/pbc.png",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -130,7 +127,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/barba/pgromming.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -140,7 +136,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/barba/ppo.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -150,7 +145,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/barba/tdodger.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   ////////////////////////////////////////////////////////
@@ -161,7 +155,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/asl-turbo.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -171,7 +164,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/asl-uni.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -181,7 +173,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/caboc.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -191,7 +182,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/caboios.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -201,7 +191,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/caboioshm.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -211,7 +200,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/cabom.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -221,7 +209,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/cbasike.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -231,7 +218,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/cgold.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -241,7 +227,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: ["assets/produtos/eletronicos/clelong.jpg"],
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -251,7 +236,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/fonegold.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   {
@@ -261,7 +245,6 @@ const catalogoProdutos = [
     preco: "1.00",
     imagem: "assets/produtos/eletronicos/fonelelong.jpg",
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
   /////////////////////////////////////////////////////////
@@ -299,7 +282,7 @@ const catalogoProdutos = [
       "assets/produtos/vestuario/camisasjf/26.jpg",
     ],
     descricao: "...",
-    uso: "...",
+
     disponivel: true,
   },
   {
@@ -315,7 +298,6 @@ const catalogoProdutos = [
       "assets/produtos/vestuario/bones/bvqjd.jpg",
     ],
     descricao: "...",
-    uso: "...",
     disponivel: true,
   },
 ];
@@ -350,8 +332,7 @@ gradeProdutos.innerHTML = catalogoProdutos
     )
     .join("")}
 </div><span class="numero-produto">0${i + 1}</span><span class="categoria">${escaparHTML(p.categoria)}</span></div>
-  <div class="produto-corpo"><h3 id="titulo-${id}">${nome}</h3><p class="descricao">${escaparHTML(p.descricao)}</p><details><summary>Como usar</summary><p>${escaparHTML(p.uso)}</p></details>
-  <div class="produto-preco"><strong>${preco}</strong><span>por unidade</span></div><p class="disponibilidade" id="disponibilidade-${id}">Disponibilidade a confirmar</p>
+  <div class="produto-corpo"><h3 id="titulo-${id}">${nome}</h3><p class="descricao">${escaparHTML(p.descricao)}<div class="produto-preco"><strong>${preco}</strong><span>por unidade</span></div><p class="disponibilidade" id="disponibilidade-${id}">Disponibilidade a confirmar</p>
   <input hidden type="checkbox" name="produtos" id="${id}" value="${escaparHTML(p.preco)}" data-nome="${nome}" data-disponivel="${p.disponivel}" data-quantidade="quantidade-${id}">
   <div class="quantidade-linha"><label for="quantidade-${id}">Quantidade</label><div class="controle-quantidade"><button type="button" data-alterar="-1" data-produto="${id}" aria-label="Diminuir quantidade de ${nome}" disabled>−</button><input type="number" id="quantidade-${id}" aria-label="Quantidade de ${nome}" data-produto="${id}" min="0" max="25" step="1" value="0" inputmode="numeric" aria-describedby="disponibilidade-${id} limiteQuantidade"><button type="button" data-alterar="1" data-produto="${id}" aria-label="Aumentar quantidade de ${nome}">+</button></div></div></div></article>`;
   })

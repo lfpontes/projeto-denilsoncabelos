@@ -264,7 +264,7 @@ const catalogoProdutos = [
       "Fone de ouvido estéreo Lelong para ouvir músicas, vídeos e outros áudios. Verifique a conexão compatível com seu dispositivo.",
     disponivel: true,
   },
-  /////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////
   {
     id: "cjahfreedom",
     nome: "Camisas JahFreedom",
